@@ -2,8 +2,12 @@ import "./App.css";
 
 function App() {
     return (
-        <div>
-            <h1>Welcome to Grow Habit!</h1>
+        <div className="w-screen h-screen">
+            <iframe
+                src="https://growhabit.me/"
+                title="Grow Habit"
+                className="w-full h-full border-none"
+            />
         </div>
     );
 }
